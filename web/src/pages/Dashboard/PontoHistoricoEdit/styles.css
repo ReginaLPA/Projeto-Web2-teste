@@ -1,0 +1,61 @@
+#page-create-PontoHistorico main .pontoHistorico-details .pontoHistorico-pending-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    height: 150px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .pontoHistorico-pending-buttons .button-decline-pontoHistorico,
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .pontoHistorico-pending-buttons .button-accept-pontoHistorico {
+    width: 45%;
+    height: 65px;
+
+    color: #fff;
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .pontoHistorico-pending-buttons .button-decline-pontoHistorico {
+    background: #FF669D;
+}
+
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .pontoHistorico-pending-buttons .button-accept-pontoHistorico {
+    background: #3CDC8C
+}
+
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .images-section .images-container .image-wrapper{
+    position: relative;
+}
+
+#page-create-PontoHistorico main .pontoHistorico-details fieldset .images-section .images-container .image-wrapper .image-remove-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 35px;
+    width: 40px;
+    padding: 5px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 0px 20px;
+
+    cursor: pointer;
+}
+
+
